@@ -39,7 +39,7 @@ pipeline{
                  stage('Code Quality Check via SonarQube') {
                    steps{
 
-       sh " mvn clean verify sonar:sonar -Dsonar.projectKey=powerdevops -Dsonar.projectName='powerdevops' -Dsonar.host.url=http://192.168.50.4:9000 -Dsonar.token=sqp_eb5069daebacecb6859a81e7d566f9ae524ab61d"
+       sh " mvn clean verify sonar:sonar -Dsonar.projectKey=devops -Dsonar.projectName='devops' -Dsonar.host.url=http://192.168.50.4:9000 -Dsonar.token=sqp_eb5069daebacecb6859a81e7d566f9ae524ab61d"
                    }
                }
 
