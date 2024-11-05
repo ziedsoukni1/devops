@@ -50,7 +50,7 @@ pipeline{
 
 
 
-         sh 'mvn clean package deploy:deploy-file -DgroupId=tn.esprit.rh.achat -DartifactId=tpAchatProject -Dversion=1.0 -DgeneratePom=true -Dpackaging=jar -DrepositoryId=deploymentRepo -Durl=http://192.168.50.4:8081/repository/maven-releases/ -Dfile=target/achat-1.0.jar'
+         sh 'mvn clean package deploy:deploy-file -DgroupId=tn.esprit.rh.achat -DartifactId=tpAchatProject -Dversion=1.0 -DgeneratePom=true -Dpackaging=jar -DrepositoryId=deploymentRepo -Durl=http://192.168.50.4:8081/repository/maven-releases/ -Dfile=target/tpAchatProject-1.0.jar'
 
 
 
