@@ -84,7 +84,8 @@ pipeline{
 		   stage('Run Spring && MySQL Containers yes') {
                steps {
                    script {
-                       sh 'docker-compose up '
+                    //    sh 'docker-compose up '
+                    echo "Run Spring && MySQL"
 
                    }
                }
