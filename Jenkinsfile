@@ -44,11 +44,8 @@ pipeline{
                }
 
 
-<<<<<<< HEAD
-        stage('Publish to Nexus') {
-=======
+
                 stage('Publish to Nexus') {
->>>>>>> eb6862914ee543465ea939c95fc2407a06806b61
                    steps {
 
 
